@@ -6,12 +6,12 @@ export default class Product extends React.Component {
   render() {
     return (
       <div className="product">
-      <p>{this.props.name}</p>
-      {this.props.producer ? <small>{this.props.producer}</small> : null}
+      //<p>{this.props.name}</p>
+      //{this.props.producer ? <small>{this.props.producer}</small> : null}
       //<p>{this.props.producer}</p>
-      <p>{this.props.hasWatermark}</p>
-      <p>{this.props.color}</p>
-      <p>{this.props.weight}</p>
+      //<p>{this.props.hasWatermark}</p>
+      //<p>{this.props.color}</p>
+      //<p>{this.props.weight}</p>
       </div>
     );
   }
